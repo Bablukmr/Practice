@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script>
+   function convertToRs(ourForm) {
+ourForm.Rs.value=ourForm.Dlr.value*80
+
+   }
+   function convertTo$(ourForm) {
+    ourForm.Dlr.value=ourForm.Rs.value/80
+
+   }
+   
+   </script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Converting Rupees To Doller</h1>
+    Enter $: <input name="Dlr" Type="number"> 
+    <br/> 
+    <br/>
+
+    <input type="button" name="d2r" value="convert $ to Rs" onclick="convertToRs(this.form)">
+    <input type="button" name="r2d" value="convert Rs to $" onclick="convertTo$(this.form)">
+    <br/> 
+    <br/>
+    Enter Rs: <input name="Rs" type="number">
+</form>
+</body>
+
+</html>

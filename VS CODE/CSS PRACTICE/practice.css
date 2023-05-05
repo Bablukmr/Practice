@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(24, 139, 154);
+    text-align-last: center; 
+ }
+ h4 {
+    color: rgb(201, 24, 24);
+    font-size: 2em;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 10px;
+padding: 30px;
+margin:100px;
+background-color: black;
+width: 200px;
+height: 200px;
+overflow: scroll;
+overflow: ;
+
+ }
+ p{
+    color: rgb(201, 24, 24);
+    font-size: 2em;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 10px;
+padding: 30px;
+margin:10px;
+background-color: black;
+border-color: rgb(46, 240, 32);
+ background-size: 100% 100%;
+ }
